@@ -1,0 +1,59 @@
+body{
+	margin: 0; 
+	padding: 0;
+}
+.button-add-task {
+	position: fixed;
+	margin: 40px;
+	width: 90px;
+	height: 90px;
+	background: #FF9C00;
+	color: white;
+	font-size: 60px;
+	cursor: pointer;
+	border-radius: 50%;
+	bottom: 0px;
+	right: 0px;
+	text-align: center;
+	line-height: 1.5;
+
+	box-shadow: 0 3px 20px rgba(0,0,0,.25),
+	inset 0 2px 0 rgba(255,255,255,.6),
+	0 2px 0 rgba(0,0,0,.1),
+	inset 0 0 20px rgba(0,0,0,.1);
+}
+
+.color{
+	width: 13px;
+	height: 13px;
+	display: block;
+
+}
+.color.active{
+	width: 16px;
+	height: 16px;
+}
+
+.random-color i{
+	font-size: 14px;
+	display: block;
+}
+.random-color.active i{
+	font-size: 18px;
+}
+.bl-task-l{
+	background: #39393b;
+}
+.colors a{
+	display: inline-block;
+}
+
+.task-list{
+	min-height: 100px;
+}
+.bl-task-l{
+	display: inline-block;
+ 	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
